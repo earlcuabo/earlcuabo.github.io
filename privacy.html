@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How Daily Market Review accesses, uses, stores, and handles Google Drive data and authorization.">
+  <title>Privacy policy · Daily Market Review</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a class="brand" href="index.html">Daily Market Review</a><nav aria-label="Main"><a href="privacy.html" aria-current="page">Privacy policy</a></nav></header>
+  <main>
+    <p class="eyebrow">Updated September 12, 2026</p>
+    <h1>Privacy policy</h1>
+    <p class="intro">This policy describes the Daily Market Review desktop uploader and this application information website, maintained by earlcuabo for personal use.</p>
+    <section>
+      <h2>Information the uploader accesses</h2>
+      <p>The uploader reads a prepared market research report from the user's PC. Google authorization provides an access token and a refresh token so it can create and update its report file in the authorized Google Drive account.</p>
+      <p>It uses the <code>https://www.googleapis.com/auth/drive.file</code> scope. It reads metadata for its report file, including its identifier, name, checksum, sharing-independent browser link, and application marker. It does not request access to Gmail, contacts, calendars, or all files in Drive.</p>
+    </section>
+    <section>
+      <h2>How information is used</h2>
+      <p>Report content is uploaded to Google Drive so the user can access and review it. File metadata is used to update the intended report and confirm that its content matches the local copy. Tokens are used only to authenticate these operations.</p>
+      <p>The uploader does not sell Google user data, use it for advertising, or use it to develop or train generalized artificial-intelligence or machine-learning models. Daily Market Review's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+    </section>
+    <section>
+      <h2>Storage and security</h2>
+      <p>Google authorization credentials are stored on the PC using Windows encryption tied to the current Windows user. Access tokens are held in memory during requests. Report copies and non-secret delivery logs are stored locally. The report file is stored in the user's Google Drive account, and requests to Google's APIs use HTTPS.</p>
+      <p>The uploader creates the report without public sharing and does not change file-sharing permissions. Later access depends on the sharing settings the user controls in Google Drive. No security measure can guarantee protection against every risk.</p>
+    </section>
+    <section>
+      <h2>Sharing and other services</h2>
+      <p>The uploader sends the report and relevant authentication requests to Google. It does not send the report to a separate application-maintainer server.</p>
+      <p>If the user separately authorizes ChatGPT to access Drive and review the report, OpenAI will process the content under that service's terms, privacy policy, and the user's account settings. The desktop uploader does not create that connection or send the report to OpenAI itself.</p>
+      <p>This information website uses no application analytics, tracking scripts, forms, or Google sign-in. GitHub Pages hosts the website and may process visitor information, including IP addresses, under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">GitHub Privacy Statement</a>.</p>
+    </section>
+    <section>
+      <h2>Retention, revocation, and deletion</h2>
+      <p>Local report archives, logs, and encrypted authorization remain on the user's PC until removed by the user. The Drive report remains until the user deletes it. Google's file history, trash, and retention rules may retain earlier copies.</p>
+      <p>To stop access, revoke Daily Market Review in <a href="https://myaccount.google.com/connections">Google Account connections</a> and disable the PC's daily task. The user can also remove the stored authorization from the PC and delete local reports and the Drive file. Revoking access alone does not delete existing reports.</p>
+    </section>
+    <section>
+      <h2>Questions and policy changes</h2>
+      <p>For privacy questions, <a href="https://github.com/earlcuabo/earlcuabo.github.io/issues">open an issue on the information-site repository</a> without including private data. This page will be updated if the application's data practices change; the date above identifies the latest revision.</p>
+    </section>
+  </main>
+  <footer><a href="index.html">Daily Market Review</a> · Privacy policy</footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+:root { color-scheme: light; font: 100%/1.7 system-ui, -apple-system, "Segoe UI", sans-serif; color: #172536; background: #f5f7fa; }
+* { box-sizing: border-box; }
+body { margin: 0; border-top: 6px solid #1554a3; }
+header, main, footer { width: min(100% - 2.5rem, 48rem); margin-inline: auto; }
+header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 1.5rem; border-bottom: 1px solid #cbd4e0; }
+a { color: #124e99; text-underline-offset: .2em; overflow-wrap: anywhere; }
+a:hover { color: #09336b; }
+a:focus-visible { outline: 3px solid #1554a3; outline-offset: 5px; }
+.brand { font-weight: 750; color: #172536; text-decoration: none; }
+main { padding-block: 3rem 2rem; }
+.eyebrow { color: #485b72; font-size: .9rem; font-weight: 650; margin: 0 0 1rem; }
+h1 { font-size: clamp(2rem, 6vw, 3.25rem); line-height: 1.12; letter-spacing: -.035em; max-width: 17ch; margin: 0 0 1.5rem; }
+.intro { font-size: 1.15rem; color: #35465b; }
+section { margin-block: 2.5rem; }
+h2 { font-size: 1.25rem; line-height: 1.35; margin-bottom: .65rem; }
+p { margin: .7rem 0; }
+code { font-size: .9em; overflow-wrap: anywhere; }
+.action { font-weight: 650; }
+footer { border-top: 1px solid #cbd4e0; padding-block: 1.5rem 2rem; color: #485b72; font-size: .9rem; }
+@media (max-width: 480px) { main { padding-top: 2rem; } header, main, footer { width: calc(100% - 2rem); } }
